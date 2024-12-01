@@ -190,7 +190,11 @@
             <li class="team-item">
               <img
                 class="team-userpic"
-                src="./images/img-1.jpg"
+                srcset="
+                  ./images/team/img-1_lap@1x.jpg 1x,
+                  ./images/team/img-1_lap@1x.jpg 2x
+                "
+                src="./images/team/img-1_lap@1x.jpg"
                 alt="Man"
                 width="264"
                 height="260"
@@ -233,7 +237,11 @@
             <li class="team-item">
               <img
                 class="team-userpic"
-                src="./images/img-2.jpg"
+                srcset="
+                  ./images/team/img-2_lap@1x.jpg 1x,
+                  ./images/team/img-2_lap@1x.jpg 2x
+                "
+                src="./images/team/img-2_lap@1x.jpg"
                 alt="Man"
                 width="264"
                 height="260"
@@ -276,7 +284,11 @@
             <li class="team-item">
               <img
                 class="team-userpic"
-                src="./images/img-3.jpg"
+                srcset="
+                  ./images/team/img-3_lap@1x.jpg 1x,
+                  ./images/team/img-3_lap@1x.jpg 2x
+                "
+                src="./images/team/img-3_lap@1x.jpg"
                 alt="Woman"
                 width="264"
                 height="260"
@@ -319,7 +331,11 @@
             <li class="team-item">
               <img
                 class="team-userpic"
-                src="./images/img-4.jpg"
+                srcset="
+                  ./images/team/img-4_lap@1x.jpg 1x,
+                  ./images/team/img-4_lap@1x.jpg 2x
+                "
+                src="./images/team/img-4_lap@1x.jpg"
                 alt="Man"
                 width="264"
                 height="260"
@@ -368,13 +384,36 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-5.jpg"
-                  alt="App"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-5_lap@1x.jpg 1x,
+                      ./images/portfolio/img-5_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-5_tab@1x.jpg 1x,
+                      ./images/portfolio/img-5_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-5_mob@1x.jpg 1x,
+                      ./images/portfolio/img-5_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-5_lap@1x.jpg"
+                    alt="App"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -388,13 +427,36 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-6.jpg"
-                  alt="Phone"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-6_lap@1x.jpg 1x,
+                      ./images/portfolio/img-6_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-6_tab@1x.jpg 1x,
+                      ./images/portfolio/img-6_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-6_mob@1x.jpg 1x,
+                      ./images/portfolio/img-6_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-6_lap@1x.jpg"
+                    alt="Phone"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -408,13 +470,36 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-7.jpg"
-                  alt="Laptop"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-7_lap@1x.jpg 1x,
+                      ./images/portfolio/img-7_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-7_tab@1x.jpg 1x,
+                      ./images/portfolio/img-7_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-7_mob@1x.jpg 1x,
+                      ./images/portfolio/img-7_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-7_lap@1x.jpg"
+                    alt="Laptop"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -428,13 +513,36 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-8.jpg"
-                  alt="Car"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-8_lap@1x.jpg 1x,
+                      ./images/portfolio/img-8_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-8_tab@1x.jpg 1x,
+                      ./images/portfolio/img-8_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-8_mob@1x.jpg 1x,
+                      ./images/portfolio/img-8_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-8_lap@1x.jpg"
+                    alt="Car"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -448,13 +556,36 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-9.jpg"
-                  alt="Phone"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-9_lap@1x.jpg 1x,
+                      ./images/portfolio/img-9_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-9_tab@1x.jpg 1x,
+                      ./images/portfolio/img-9_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-9_mob@1x.jpg 1x,
+                      ./images/portfolio/img-9_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-9_lap@1x.jpg"
+                    alt="Phone"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -468,13 +599,36 @@
             </li>
             <li class="portfolio-item">
               <div class="overlay">
-                <img
-                  class="portfolio-img"
-                  src="./images/img-10.jpg"
-                  alt="Girl"
-                  width="360"
-                  height="300"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/img-10_lap@1x.jpg 1x,
+                      ./images/portfolio/img-10_lap@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio/img-10_tab@1x.jpg 1x,
+                      ./images/portfolio/img-10_tab@2x.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/img-10_mob@1x.jpg 1x,
+                      ./images/portfolio/img-10_mob@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/portfolio/img-10_lap@1x.jpg"
+                    alt="Girl"
+                    width="360"
+                    height="300"
+                  />
+                </picture>
                 <p class="img-descr">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -556,7 +710,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg class="icon-close" width="8" height="8">
