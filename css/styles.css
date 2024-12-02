@@ -1125,17 +1125,13 @@ button {
   margin-bottom: 24px;
 }
 
-input[type="checkbox"]:checked + .modal-agreement-text > .custom-checkbox {
+input[type="checkbox"]:checked + .modal-agreement-label > .custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
 }
 
-/*input[type="checkbox"]:checked+.modal-agreement-text .checkbox-tick {
-  fill: #F4F4FD;
-}*/
-
-input[type="checkbox"]:focus-visible + .modal-agreement-text>.custom-checkbox {
+input[type="checkbox"]:focus-visible + .modal-agreement-label > .custom-checkbox {
   outline: 1px solid #404bbf;
   outline-offset: 2px;
 }
@@ -1161,10 +1157,6 @@ input[type="checkbox"]:focus-visible + .modal-agreement-text>.custom-checkbox {
   transition-property: border, background-color, fill;
   flex-shrink: 0;
 }
-
-/*.custom-checkbox > .checkbox-tick {
-  fill: transparent;
-}*/
 
 .modal-agreement-text {
   font-size: 12px;
